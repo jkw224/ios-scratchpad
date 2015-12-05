@@ -12,7 +12,7 @@ class SlideoutVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     @IBOutlet weak var SlideoutTV: UITableView!
     
-    var TableArray = ["some", "rows", "in", "tableview"]
+    var TableArray = ["View 1"]
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -19,6 +19,7 @@
 		FBB7B12D1C128A7700424AB4 /* ManageBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBB7B12B1C128A7700424AB4 /* ManageBar.xib */; };
 		FBB7B1421C129AFD00424AB4 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB7B1411C129AFD00424AB4 /* TabBarVC.swift */; };
 		FBDAF00D1C12B5F2001C1C20 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDAF00C1C12B5F2001C1C20 /* SecondVC.swift */; };
+		FBDAF0101C12B822001C1C20 /* thirdView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBDAF00E1C12B822001C1C20 /* thirdView.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		FBB7B12B1C128A7700424AB4 /* ManageBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ManageBar.xib; sourceTree = "<group>"; };
 		FBB7B1411C129AFD00424AB4 /* TabBarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
 		FBDAF00C1C12B5F2001C1C20 /* SecondVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+		FBDAF00F1C12B822001C1C20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/thirdView.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				FBB7B10E1C12454E00424AB4 /* Main.storyboard */,
+				FBDAF00E1C12B822001C1C20 /* thirdView.storyboard */,
 				FBB7B1201C124AF100424AB4 /* SlideoutMenuCell.swift */,
 				FBB7B12B1C128A7700424AB4 /* ManageBar.xib */,
 			);
@@ -185,6 +188,7 @@
 			files = (
 				FBB7B12D1C128A7700424AB4 /* ManageBar.xib in Resources */,
 				FBB7B1151C12454E00424AB4 /* LaunchScreen.storyboard in Resources */,
+				FBDAF0101C12B822001C1C20 /* thirdView.storyboard in Resources */,
 				FBB7B1121C12454E00424AB4 /* Assets.xcassets in Resources */,
 				FBB7B1101C12454E00424AB4 /* Main.storyboard in Resources */,
 			);
@@ -272,6 +276,14 @@
 				FBB7B1141C12454E00424AB4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FBDAF00E1C12B822001C1C20 /* thirdView.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBDAF00F1C12B822001C1C20 /* Base */,
+			);
+			name = thirdView.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
